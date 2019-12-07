@@ -7,18 +7,18 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   </head>
 
-  <body>
+  <body class="bg-secondary">
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-    <div id = "main" class="bg-dark">
+    <div id = "main">
         <header>
             <div id = "title">
-                <p class="text-primary">Dr. Norman Borlaug</p>
+                <p class="text-white ">Dr. Norman Borlaug</p>
             </div>
         </header>
 
             <div id="img-div">
                 <div id = "img-caption">
-                        <p class="text-light bg-dark">
+                        <p class="text-light bg-dark text-center ">
                         Dr. Norman Borlaug, third from the left, trains biologists in Mexico on how
                         to increase wheat yields - part of his life-long war on hunger.
                         </p>
@@ -27,13 +27,34 @@
             
             </div>
             <div id="tribute-info">
-                  <h3>  
+                  <p class="text-light bg-dark font-weight-light text-center "> 
                   Here's a time line of Dr. Borlaug's life 
-                  </h3>
+                  </p>
             </div>
-                <h3> If you have time, you should read more about this incredible human being on his 
-                    <a id="tribute-link" href="https://en.wikipedia.org/wiki/Norman_Borlaug" target="_blank"> Wikipedia entry.  </a>
-                </h3>
+
+            <div id="quick-info">
+                    <ul class="list-group">
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                              Cras justo odio
+                              <span class="badge badge-primary badge-pill">14</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                              Dapibus ac facilisis in
+                              <span class="badge badge-primary badge-pill">2</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                              Morbi leo risus
+                              <span class="badge badge-primary badge-pill">1</span>
+                            </li>
+                          </ul>
+
+            </div>
+
+
+                <p class="text-light text-center ">
+                     If you have time, you should read more about this incredible human being on his 
+                    <a class="text-dark bg-white" id="tribute-link" href="https://en.wikipedia.org/wiki/Norman_Borlaug" target="_blank"> Wikipedia entry.  </a>
+                </p>
 
     </div>
   </body>
