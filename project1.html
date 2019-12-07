@@ -1,101 +1,202 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <title>Gio and Keli's Portfolio</title>
 </head>
 <style>
-    .navbar{
+    .navbar {
 
-    display: flex;
-    justify-content: flex-end;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background: yellowgreen;
-    box-shadow: 0 2px 0 
-    rgba(0, 0, 0, 0.4);
-    z-index: 10;
+        display: flex;
+        justify-content: flex-end;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background: yellowgreen;
+        box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+        z-index: 10;
     }
-    .navUl{
+
+    .navUl {
         display: flex;
         margin-right: 1rem;
+        list-style-type: none;
+        margin: 0 auto;
     }
+
+    .profile-link {
+        display: block;
+        color: white;
+        font-size: 1.4rem;
+        margin-right: 1rem;
+    }
+
+    .profile-link:hover {
+        color: #333;
+        text-decoration: none;
+    }
+
     .welcome {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	width: 100%;
-	height: 100vh;
-	background-color: #000;
-    background-image: linear-gradient(62deg, #032e59 0%, #4a0095 100%);
-    color: white;
-}
-#welcome-section{
-    height: 100vh;
-}
-#navbar{
-    position: fixed;
-    top: 0;
-}
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        background-color: #000;
+        background-image: linear-gradient(62deg, #032e59 0%, #4a0095 100%);
+        color: white;
+    }
+
+    #welcome-section {
+        height: 100vh;
+    }
+
+    #navbar {
+        position: fixed;
+        top: 0;
+    }
 </style>
+
 <body>
-        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
     <div class="container-fluid col-12">
         <section id="welcome-section" class="welcome">
-            <h3>
-                Check out Gio and Keli's Portfolio
-            </h3>
+            <h1>
+                Gio and Keli's Portfolio
+            </h1>
             <p class="lead">We love coding <code> :)</code></p>
         </section>
-        <section id="projects">
-            <h3 class="project-tile">
-                Building a basic HTML CSS  and Javascript digital clock.
-            </h3>
-            Click   <a href="https://github.com/kelibst/gioandkeli">here</a> to check it out.
-        </section>
+        <div class="row">
+            <div class="container">
+                <section id="projects">
+                    <div class="row">
+                        <div class="card col-sm-4" style="width:400px">
+                            <div class="card-body">
+                                <h3 class="project-tile"> Building a basic HTML CSS and Javascript digital clock. </h3>
+                                <p class="card-text">Some example text some example text. Jane Doe is an architect and
+                                    engineer</p>
+                                <a href="https://github.com/kelibst/gioandkeli"
+                                    class="btn btn-primary streched-link">See Profile</a>
+                            </div>
+                            <img class="card-img-bottom"
+                                src="https://freefrontend.com/assets/img/css-clocks/pure-css-clock-design.jpg"
+                                alt="Card image" style="width:100%">
+                        </div>
+
+                        <div class="card col-sm-4" style="width:400px">
+                            <div class="card-body">
+                                <h3 class="project-tile"> Building a basic HTML CSS and Javascript digital clock. </h3>
+                                <p class="card-text">Some example text some example text. Jane Doe is an architect and
+                                    engineer</p>
+                                <a href="https://github.com/kelibst/gioandkeli"
+                                    class="btn btn-primary streched-link">See Profile</a>
+                            </div>
+                            <img class="card-img-bottom"
+                                src="https://freefrontend.com/assets/img/css-clocks/pure-css-clock-design.jpg"
+                                alt="Card image" style="width:100%">
+                        </div>
+
+
+                        <div class="card col-sm-4" style="width:400px">
+                            <div class="card-body">
+                                <h3 class="project-tile"> Building a basic HTML CSS and Javascript digital clock. </h3>
+                                <p class="card-text">Some example text some example text. Jane Doe is an architect and
+                                    engineer</p>
+                                <a href="https://github.com/kelibst/gioandkeli"
+                                    class="btn btn-primary streched-link">See Profile</a>
+                            </div>
+                            <img class="card-img-bottom"
+                                src="https://freefrontend.com/assets/img/css-clocks/pure-css-clock-design.jpg"
+                                alt="Card image" style="width:100%">
+                        </div>
+                    </div>
+
+            </div>
+            </section>
+        </div>
+    </div>
     </div>
 
+    <div class="container">
 
 
-    <section id="keli">
-        <p class="jumbotron">
-            <h2 class="lead">About Keli</h2>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius vel error nam, voluptas sed laboriosam, ipsum porro modi ad deleniti tempore voluptatibus eos quos veniam. Itaque, aut adipisci. Aperiam, numquam.
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui accusamus nihil quia inventore exercitationem doloremque amet, eveniet ullam quas maxime aperiam omnis ipsa! Molestias impedit dignissimos iste ab quidem sint!
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam nulla sapiente voluptatibus qui deserunt ipsum temporibus aut incidunt dolorum unde. Corporis sint sequi magnam nulla assumenda quaerat nihil molestias impedit.
-        </p>
-    </section>
-    <section id="gio">
-            <p class="jumbotron">
+
+        <section id="keli">
+            <p>
                 <h2 class="lead">About Keli</h2>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius vel error nam, voluptas sed laboriosam, ipsum porro modi ad deleniti tempore voluptatibus eos quos veniam. Itaque, aut adipisci. Aperiam, numquam.
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui accusamus nihil quia inventore exercitationem doloremque amet, eveniet ullam quas maxime aperiam omnis ipsa! Molestias impedit dignissimos iste ab quidem sint!
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam nulla sapiente voluptatibus qui deserunt ipsum temporibus aut incidunt dolorum unde. Corporis sint sequi magnam nulla assumenda quaerat nihil molestias impedit.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius vel error nam, voluptas sed laboriosam,
+                ipsum porro modi ad deleniti tempore voluptatibus eos quos veniam. Itaque, aut adipisci. Aperiam,
+                numquam.
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui accusamus nihil quia inventore
+                exercitationem doloremque amet, eveniet ullam quas maxime aperiam omnis ipsa! Molestias impedit
+                dignissimos iste ab quidem sint!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam nulla sapiente voluptatibus qui deserunt
+                ipsum temporibus aut incidunt dolorum unde. Corporis sint sequi magnam nulla assumenda quaerat nihil
+                molestias impedit.
+
+
+                <h2 class="lead">About Gio</h2>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius vel error nam, voluptas sed laboriosam,
+                ipsum porro modi ad deleniti tempore voluptatibus eos quos veniam. Itaque, aut adipisci. Aperiam,
+                numquam.
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui accusamus nihil quia inventore
+                exercitationem doloremque amet, eveniet ullam quas maxime aperiam omnis ipsa! Molestias impedit
+                dignissimos iste ab quidem sint!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam nulla sapiente voluptatibus qui deserunt
+                ipsum temporibus aut incidunt dolorum unde. Corporis sint sequi magnam nulla assumenda quaerat nihil
+                molestias impedit.
             </p>
         </section>
 
+        <section id="gio">
+                <p>
+                    <h2 class="lead">About Keli</h2>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius vel error nam, voluptas sed laboriosam,
+                    ipsum porro modi ad deleniti tempore voluptatibus eos quos veniam. Itaque, aut adipisci. Aperiam,
+                    numquam.
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui accusamus nihil quia inventore
+                    exercitationem doloremque amet, eveniet ullam quas maxime aperiam omnis ipsa! Molestias impedit
+                    dignissimos iste ab quidem sint!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam nulla sapiente voluptatibus qui deserunt
+                    ipsum temporibus aut incidunt dolorum unde. Corporis sint sequi magnam nulla assumenda quaerat nihil
+                    molestias impedit.
+    
+    
+                    <h2 class="lead">About Gio</h2>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius vel error nam, voluptas sed laboriosam,
+                    ipsum porro modi ad deleniti tempore voluptatibus eos quos veniam. Itaque, aut adipisci. Aperiam,
+                    numquam.
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui accusamus nihil quia inventore
+                    exercitationem doloremque amet, eveniet ullam quas maxime aperiam omnis ipsa! Molestias impedit
+                    dignissimos iste ab quidem sint!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam nulla sapiente voluptatibus qui deserunt
+                    ipsum temporibus aut incidunt dolorum unde. Corporis sint sequi magnam nulla assumenda quaerat nihil
+                    molestias impedit.
+                </p>
+            </section>
 
 
 
-    <nav id="navbar" class="navbar">
-        <ul class="navUl">
-            <li class="navli">
-                <a href="github.com/kelibst" id="profile-link" target="_blank">Keli's portfolio</a>
-                <br>
-                <a href="#keli">Read More</a>
-            </li>
-            <li class="navli">
-                <a href="https://github.com/wodsuz" class="profile-link" >Gio's portfolio</a>
-                <br>
-                <a href="#gio">Read More</a>
-            </li>
-        </ul>
-    </nav>
+
+        <nav id="navbar" class="navbar">
+            <ul class="navUl">
+                <li class="navli">
+                    <a href="#keli" class="profile-link" id="profile-link" target="_blank">Keli</a>
+                </li>
+                <li class="navli">
+                    <a href="#gio" class="profile-link">Gio</a>
+                </li>
+            </ul>
+        </nav>
+
+    </div>
 </body>
+
 </html>
