@@ -7,6 +7,34 @@
     <title>Gio and Keli's Portfolio</title>
 </head>
 <style>
+    .navbar{
+
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: yellowgreen;
+    box-shadow: 0 2px 0 
+    rgba(0, 0, 0, 0.4);
+    z-index: 10;
+    }
+    .navUl{
+        display: flex;
+        margin-right: 1rem;
+    }
+    .welcome {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100vh;
+	background-color: #000;
+    background-image: linear-gradient(62deg, #032e59 0%, #4a0095 100%);
+    color: white;
+}
 #welcome-section{
     height: 100vh;
 }
@@ -19,10 +47,11 @@
         <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
     <div class="container-fluid col-12">
-        <section id="welcome-section">
-            <h1 class="display-3">
+        <section id="welcome-section" class="welcome">
+            <h3>
                 Check out Gio and Keli's Portfolio
-            </h1>
+            </h3>
+            <p class="lead">We love coding <code> :)</code></p>
         </section>
         <section id="projects">
             <h3 class="project-tile">
@@ -54,7 +83,7 @@
 
 
 
-    <nav id="navbar">
+    <nav id="navbar" class="navbar">
         <ul class="navUl">
             <li class="navli">
                 <a href="github.com/kelibst" id="profile-link" target="_blank">Keli's portfolio</a>
